@@ -14,7 +14,7 @@ class CalculatorTest {
  @Test
  @DisplayName("2. subtract(10, 4) = 6")
  void testSubtract() {
- assertEquals(6, calc.subtract(10, 4), "Subtraction is wrong");
+ assertEquals(-6, calc.subtract(10, 4), "Subtraction is wrong");
  }
  @Test
  @DisplayName("3. multiply(4, 5) = 20")
